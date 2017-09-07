@@ -34,9 +34,32 @@ The spark running environment is already built. What you need to do is just pull
     #for example
     ./bin/spark-submit examples/src/main/python/pi.py 10
     ./bin/spark-submit examples/src/main/r/dataframe.R
+    ```
  * Exit Spark with CTRL + D
 
 Whenever you want to exit this running environment without ending it, press CTRL + Q + P at the same time.
+
+Some more you can do with docker:
+
+* get the list of containers:
+```bash
+docker ps -a
+```
+
+* get the list of docker images:
+```bash
+docker images
+```
+
+* re-enter the runing container:
+```bash
+docker exec -it spark /bin/bash
+```
+
+* restart a stoped container:
+```bash
+docker start -i spark
+```
 
 This image has other built-in features to be update.
 
