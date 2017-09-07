@@ -64,5 +64,5 @@ Some more you can do with docker:
 This image has other built-in features to be update.
 
 
-This is [on GitHub](https://github.com/zzz1990771/spark_workshop/blob/master/README.md) so let me know if I've b0rked it somewhere.
+This is [on GitHub](https://github.com/zzz1990771/spark_workshop/blob/master/README.md).
 
