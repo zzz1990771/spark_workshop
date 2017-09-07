@@ -42,24 +42,24 @@ Whenever you want to exit this running environment without ending it, press CTRL
 Some more you can do with docker:
 
 * get the list of containers:
-```bash
-docker ps -a
-```
+    ```bash
+    docker ps -a
+    ```
 
 * get the list of docker images:
-```bash
-docker images
-```
+    ```bash
+    docker images
+    ```
 
 * re-enter the runing container:
-```bash
-docker exec -it spark /bin/bash
-```
+    ```bash
+    docker exec -it spark /bin/bash
+    ```
 
 * restart a stoped container:
-```bash
-docker start -i spark
-```
+    ```bash
+    docker start -i spark
+    ```
 
 This image has other built-in features to be update.
 
