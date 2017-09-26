@@ -12,7 +12,7 @@ The spark running environment is already built. What you need to do is just pull
 
  * Pull the image from docker hub:
     ```bash
-    docker pull zzz1990771/kafka_spark
+    docker pull zzz1990771/kafka_spark:v1
     ```
  * Run the image locally:
      ```bash
